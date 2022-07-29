@@ -4,7 +4,8 @@ import Layout from "./containers/Layout"
 function App() {
   return (
     <Layout>
-      <Button />
+      <Button variant={"basic-shape default"}/>
+      <Button variant={"basic-shape outline"}/>
     </Layout>
   )
 }
