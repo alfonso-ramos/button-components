@@ -1,11 +1,12 @@
 import React from 'react'
-import '../style/Button.css'
+import '../style/components/Button.scss'
 
-const Button = ({variant}) => {
+const Button = (props) => {
   return (
     <div className='Button'>
-        <button className={variant} type='button'>
-            Default
+        <p>{props.description}</p>
+        <button className={props.variant} type='button'>
+            {props.text}
         </button>
     </div>
   )
