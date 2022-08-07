@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/components/SideMenuSection.scss'
 
 const SideMenuSection = (props) => {
   return (
@@ -7,5 +8,7 @@ const SideMenuSection = (props) => {
     </div>
   )
 }
+
+  
 
 export default SideMenuSection

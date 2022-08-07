@@ -15,16 +15,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* Globales */
-.container{
-    max-width: 120rem;
-    width: 90%;
-    margin: 0 auto;
-}
-
-/* 
+// .container{
+//     max-width: 120rem;
+//     width: 90%;
+//     margin: 0 auto;
+// }
 a{
     text-decoration: none;
 }
+p{
+    margin: 0;
+}
+/* 
 h1{
     font-size: 4.8rem;
 }

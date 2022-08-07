@@ -1,6 +1,6 @@
 import React from 'react'
 import SideMenuSection from "../components/SideMenuSection"
-import '../style/components/SideMenuSection.scss'
+import '../style/containers/SideMenu.scss'
 
 const SideMenu = () => {
   return (
@@ -8,12 +8,12 @@ const SideMenu = () => {
         <p>
             <span className="orange-color">Dev</span>challenge.io
         </p>
-        <SideMenuSection text={"Colors"} />
-        <SideMenuSection text={"Typography"} />
-        <SideMenuSection text={"Space"} />
-        <SideMenuSection text={"Buttons"} />
-        <SideMenuSection text={"Inputs"} />
-        <SideMenuSection text={"Grid"} />
+        <SideMenuSection text={"Colors"} className="SideMenuSection" />
+        <SideMenuSection text={"Typography"} className="SideMenuSection" />
+        <SideMenuSection text={"Space"} className="SideMenuSection" />
+        <SideMenuSection text={"Buttons"} className="SideMenuSection" />
+        <SideMenuSection text={"Inputs"} className="SideMenuSection in-place" />
+        <SideMenuSection text={"Grid"} className="SideMenuSection" />
     </div>
   )
 }

@@ -1,0 +1,15 @@
+@import '../vars';
+
+.SideMenu{
+    background-color: var(--light-gray);
+    width: 23.7rem;
+    height: 100vh;
+    // height: 123.4rem;
+    padding: 4.5rem 6rem;
+    p{
+        margin-bottom: 12rem;
+    }
+    .SideMenuSection{
+        margin-bottom: 3rem;
+    }
+}
